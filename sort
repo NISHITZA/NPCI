@@ -1,0 +1,16 @@
+def sort(a):
+    n = len(a)
+    temp =0
+    for i in range(n):
+        for j in range(0,n-i-1):
+            if a[j] > a[j+1]:
+                temp = a[j]
+                a[j] = a[j+1]
+                a[j+1] = temp
+                
+test_array =[3,1,4,10,0]
+
+sort(test_array)
+
+for i in range(len(test_array)):
+    print(test_array[i])
