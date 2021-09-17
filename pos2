@@ -1,0 +1,8 @@
+def pos(a,ele):
+    n = len(a);
+    for i in range(n):
+        if a[i] == ele:
+           print('Position is',i)
+        
+arr = [1,2,3,4,5,5,5]
+pos(arr,5)
