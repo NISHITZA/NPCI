@@ -1,0 +1,12 @@
+def pos(a,ele):
+    n = len(a);
+    index = 0;
+    
+    for i in range(n):
+        if a[i] == ele:
+            index = i
+            break
+    print('first position', index)
+        
+arr = [1,2,3,4,5]
+pos(arr,5)
